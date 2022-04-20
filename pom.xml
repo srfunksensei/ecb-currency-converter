@@ -13,6 +13,7 @@
         <maven.compiler.target>11</maven.compiler.target>
         <junit.version>5.8.2</junit.version>
         <jaxb.version>2.3.1</jaxb.version>
+        <jcommander.version>1.82</jcommander.version>
     </properties>
 
     <dependencies>
@@ -36,6 +37,13 @@
             <groupId>org.glassfish.jaxb</groupId>
             <artifactId>jaxb-runtime</artifactId>
             <version>${jaxb.version}</version>
+        </dependency>
+
+        <!-- https://mvnrepository.com/artifact/com.beust/jcommander -->
+        <dependency>
+            <groupId>com.beust</groupId>
+            <artifactId>jcommander</artifactId>
+            <version>${jcommander.version}</version>
         </dependency>
 
     </dependencies>
